@@ -335,7 +335,17 @@ export default function App() {
         <div className={styles.page}>
             <header className={styles.header}>
                 <span className={styles.logo}>Kinetic Gallery</span>
-                <span className={styles.hint}>Hover a card · or wait 5s to start</span>
+                <div className={styles.headerMeta}>
+                    <span className={styles.hint}>Hover a card · or wait 5s to start</span>
+                    <a
+                        className={styles.repoLink}
+                        href="https://github.com/siyuhuh/kinetic-gallery-demo"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </div>
             </header>
 
             <div ref={viewRef} className={styles.view}>
