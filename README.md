@@ -1,10 +1,11 @@
 # Kinetic Gallery Demo
 
-Standalone Vite demo — horizontal 3D gallery with camera fly-in and scroll handoff.
+Standalone Vite demos — switchable 3D gallery pages.
 
 **Live demo:** https://demo-gallery.whothree.space
 
-Based on [makaleidos-Art-Gallery @ 3984dfa](https://github.com/gottaegbert/makaleidos-Art-Gallery/commit/3984dfab4499e1480e58bf93a519e49828cf6101), with glass card shaders from the main gallery app.
+- **Cards** (`/`) — horizontal glass card gallery with camera fly-in + scroll handoff
+- **Cylinder** (`/cylinder`) — kinetic cylinder tower from the Art Exhibition UK homepage
 
 ## Run
 
@@ -15,4 +16,4 @@ npm run dev
 
 ## Stack
 
-Vite · React · React Three Fiber · Drei · maath · Three.js
+Vite · React · React Router · React Three Fiber · Drei · maath · Three.js
